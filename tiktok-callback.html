@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<title>Clipper – TikTok</title><link rel="stylesheet" href="style.css">
+<script>
+  // TikTok only accepts HTTPS redirects: hand the answer over to the tool running on this
+  // computer. The target is fixed, so this page cannot redirect anywhere else.
+  location.replace("http://localhost:8000/api/auth/tiktok/callback" + location.search);
+</script></head>
+<body><main><p>Retour vers Clipper… / Back to Clipper…</p></main></body></html>
