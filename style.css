@@ -1,0 +1,7 @@
+body { margin: 0; background: #0b0b10; color: #ececf1; font: 16px/1.6 system-ui, -apple-system, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 18px; margin: 32px 0 8px; }
+a { color: #a970ff; }
+.muted { color: #9a9aa8; font-size: 14px; }
+nav { display: flex; gap: 16px; margin-bottom: 32px; font-size: 14px; }
